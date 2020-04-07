@@ -8,16 +8,16 @@
 #### 質問箱アプリの開発
 質問箱アプリのフレームワークリプレースと新規開発
 - アーキテクチャ
-Flux(Vuex) -> Flux(Redux)
+  - Flux(Vuex) -> Flux(Redux)
 - 使用技術
-VueNative/ReactNative/TypeScript
+  - VueNative/ReactNative/TypeScript
 
 #### magi(Android)アプリの開発
 magi(Android)アプリのアーキテクチャ変更とKotlinリプレース及びテスト導入
 - アーキテクチャ
-MVC -> MVVM
+  - MVC -> MVVM
 - 使用技術
-Java/Kotlin/AAC(LiveData,ViewModel)/Koin/Spek2
+  - Java/Kotlin/AAC(LiveData,ViewModel)/Koin/Spek2
 
 ### 2017/06-2019/02 株式会社ディー・エヌ・エー
 オートモーティブ事業本部
@@ -26,15 +26,26 @@ Java/Kotlin/AAC(LiveData,ViewModel)/Koin/Spek2
 ドライバーアプリの開発
 プロジェクト中期以降はプロダクトオーナーとして社内外の調整や仕様策定も務める
 - アーキテクチャ
-VIPER
+  - VIPER
 - 使用技術
-Kotlin/Coroutine/AWS-IoT
+  - Kotlin/Coroutine/AWS-IoT
 
 #### 2017/06-2018/02
 車載ユーザーアプリ(Android)、配車アプリ(Android)の開発
 - アーキテクチャ
-Flux
+  - Flux
 - 使用技術
-Kotlin/Firebase/Rx/paho-mqtt
+  - Kotlin/Firebase/Rx/paho-mqtt
 - 特筆事項
-paho-mqttについては脆弱性対策でhostname検証を追加実装
+  - paho-mqttについては脆弱性対策でhostname検証を追加実装
+
+## 学歴
+### 2020/04-現在 北陸先端科学技術大学院大学先端科学技術専攻 在学
+
+### 2012/04-2015/03 東京大学大学院新領域創成科学研究科人間環境学専攻 修士(環境学)
+- 研究内容
+  - 太陽光・熱同時利用システムに関する研究
+  
+### 2008/04-2012/03 豊田工業大学工学部先端工学基礎学科 学士(工学)
+- 研究内容
+  - 格子不整合系における転位形成に基板の傾斜が与える影響
