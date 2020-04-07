@@ -1,7 +1,7 @@
 # 職務経歴書
 ## 個人情報
-blog: https://iwsksky.hatenablog.com/
-twitter: https://twitter.com/iwsksky
+- blog: https://iwsksky.hatenablog.com/
+- twitter: https://twitter.com/iwsksky
 
 ## 職務経歴
 ### 2019/02-現在 株式会社ジラフ
