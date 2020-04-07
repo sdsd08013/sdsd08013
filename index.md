@@ -36,7 +36,7 @@ magi(Android)アプリのアーキテクチャ変更とKotlinリプレース及�
 - アーキテクチャ
   - Flux
 - 使用技術
-  - Kotlin/Firebase/Rx/paho-mqtt
+  - Kotlin/Firebase/Rx/Dagger2/paho-mqtt
 - 特筆事項
   - paho-mqttについては脆弱性対策でhostname検証を追加実装
 
