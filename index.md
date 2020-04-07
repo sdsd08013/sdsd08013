@@ -1,4 +1,4 @@
-# 職務経歴書
+# Resume
 ## 個人情報
 - blog: https://iwsksky.hatenablog.com/
 - twitter: https://twitter.com/iwsksky
