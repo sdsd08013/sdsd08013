@@ -5,6 +5,15 @@
 ## 職務経歴
 ### 2019/02-現在 株式会社ジラフ
 
+#### magi(Android)アプリの開発
+https://magi.camp/
+
+magi(Android)アプリのアーキテクチャ変更とKotlinリプレース及びテスト導入
+- アーキテクチャ
+  - MVC -> MVVM
+- 使用技術
+  - Java/Kotlin/AAC(LiveData,ViewModel)/Koin/Spek2
+  
 #### 質問箱アプリの開発
 質問箱アプリのフレームワークリプレースと新規開発
 - アーキテクチャ
@@ -12,12 +21,6 @@
 - 使用技術
   - VueNative/ReactNative/TypeScript
 
-#### magi(Android)アプリの開発
-magi(Android)アプリのアーキテクチャ変更とKotlinリプレース及びテスト導入
-- アーキテクチャ
-  - MVC -> MVVM
-- 使用技術
-  - Java/Kotlin/AAC(LiveData,ViewModel)/Koin/Spek2
 
 ### 2017/06-2019/02 株式会社ディー・エヌ・エー
 オートモーティブ事業本部
