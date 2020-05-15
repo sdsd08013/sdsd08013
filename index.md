@@ -41,6 +41,24 @@ EasyRideFot17において車載ユーザーアプリ(Android)、配車アプリ(
 - 特筆事項
   - paho-mqttについては脆弱性対策でhostname検証を追加実装
 
+### 2015/04-2017/05 スローガン株式会社
+
+新卒/中途者向けウェブサービスの運用開発を担当
+
+#### Goodfind
+https://www.goodfind.jp/2021/
+
+#### FASTGROW
+https://www.fastgrow.jp/
+
+- アーキテクチャ
+  - MVC(サーバーサイド
+  - MVC(ネイティブアプリケーション
+  
+- 使用技術
+  - CakePHP2/RubyonRails4
+  - Swift2/Kotlin
+
 ## 学歴
 ### 2020/04-現在 北陸先端科学技術大学院大学先端科学技術専攻 在学
 - 研究内容(予定)
