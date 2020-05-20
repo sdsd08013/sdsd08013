@@ -12,7 +12,7 @@ magi(Android)アプリのアーキテクチャ変更とKotlinリプレース及�
 - アーキテクチャ
   - MVC -> MVVM
 - 使用技術
-  - Java/Kotlin/AAC(LiveData,ViewModel)/Koin/Spek2
+  - Java/Kotlin/Coroutine/AAC(LiveData,ViewModel)/Koin/Spek2
   
 #### 質問箱アプリの開発
 https://peing.net/ja/
