@@ -30,7 +30,7 @@ https://peing.net/ja/
 https://easy-ride.com/
 
 #### 2018/03-2019/02
-EasyRideFot18においてドライバーアプリの開発
+EasyRideFot18においてドライバーアプリ(Android)の開発
 プロジェクト中期以降はプロダクトオーナーとして社内外の調整や仕様策定も務める
 - アーキテクチャ
   - VIPER
