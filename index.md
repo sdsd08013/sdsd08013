@@ -35,7 +35,7 @@ EasyRideFot18においてドライバーアプリの開発
 - アーキテクチャ
   - VIPER
 - 使用技術
-  - Kotlin/Coroutine/AWS-IoT
+  - Kotlin/Coroutine/AWS-IoT/JUnit4/Robolectric
 
 #### 2017/06-2018/02
 EasyRideFot17において車載ユーザーアプリ(Android)、配車アプリ(Android)の開発
