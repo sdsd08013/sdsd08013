@@ -2,6 +2,8 @@
 ## 個人情報
 - blog: https://iwsksky.hatenablog.com/
 
+- 16personalities: https://www.16personalities.com/ja/istp%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC
+
 ## 職務経歴
 ### 2019/02-現在 株式会社ジラフ
 
