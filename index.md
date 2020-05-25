@@ -1,5 +1,7 @@
 # Resume
 ## 個人情報
+- 氏名: 岩崎拓海
+
 - blog: https://iwsksky.hatenablog.com/
 
 - 16personalities: https://www.16personalities.com/ja/istp%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC
