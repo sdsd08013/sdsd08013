@@ -12,6 +12,8 @@
 #### magi(Android)アプリの開発
 https://magi.camp/
 
+https://magi.camp/confirm/regist
+
 magi(Android)アプリのアーキテクチャ変更とKotlinリプレース及びテスト導入
 - アーキテクチャ
   - MVC -> MVVM
