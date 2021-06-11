@@ -7,7 +7,11 @@
 - 16personalities: https://www.16personalities.com/ja/istp%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC
 
 ## 職務経歴
-### 2019/02-現在 株式会社ジラフ
+
+### 2021/04-現在 PayPay株式会社
+TBD
+
+### 2019/02-2021/03 株式会社ジラフ
 
 #### magi(Android)アプリの開発
 https://magi.camp/
