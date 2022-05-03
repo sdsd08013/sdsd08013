@@ -4,12 +4,13 @@
 
 - blog: https://iwsksky.hatenablog.com/
 
-- 16personalities: https://www.16personalities.com/ja/istp%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC
+- linkedin: https://www.linkedin.com/in/sky-iwasaki-4a821a159
 
 ## 職務経歴
 
 ### 2021/04-現在 PayPay株式会社
 TBD
+- Androidアプリの開発とデリバリー
 
 ### 2019/02-2021/03 株式会社ジラフ
 
