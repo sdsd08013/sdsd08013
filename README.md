@@ -1,9 +1,8 @@
-## 個人情報
-- 氏名: 岩崎拓海
+## Persoal
+Sky Iwasaki
 
-- blog: https://iwsksky.hatenablog.com/
-
-- linkedin: https://www.linkedin.com/in/sky-iwasaki-4a821a159
+blog: https://iwsksky.hatenablog.com/
+linkedin: https://www.linkedin.com/in/sky-iwasaki-4a821a159
 
 ## Experience
 
