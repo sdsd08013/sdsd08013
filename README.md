@@ -1,3 +1,6 @@
+[職務経歴書.pdf](https://github.com/sdsd08013/sdsd08013/files/9849521/default.pdf)
+
+
 ## Persoal
 Sky Iwasaki
 
