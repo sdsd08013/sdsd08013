@@ -1,6 +1,3 @@
-[職務経歴書.pdf](https://github.com/sdsd08013/sdsd08013/files/9849521/default.pdf)
-
-
 ## Persoal
 Sky Iwasaki
 
@@ -9,7 +6,10 @@ linkedin: https://www.linkedin.com/in/sky-iwasaki-4a821a159
 
 ## Experience
 
-### Apr 2021 - Present PayPay Corporation
+### Jan 2023 - 
+TBD
+
+### Apr 2021 - Dec 2022
 Mobile Application Developer
 
 ### Feb 2019 - Mar 2021 Jiraffe inc
