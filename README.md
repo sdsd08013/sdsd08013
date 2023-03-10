@@ -9,7 +9,7 @@ linkedin: https://www.linkedin.com/in/sky-iwasaki-4a821a159
 ### Jan 2023 - 
 TBD
 
-### Apr 2021 - Dec 2022
+### Apr 2021 - Dec 2022 PayPay Corp
 Mobile Application Developer
 
 ### Feb 2019 - Mar 2021 Jiraffe inc
