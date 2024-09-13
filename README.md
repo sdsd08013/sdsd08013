@@ -25,7 +25,7 @@ Kotlin/Coroutine/AWS-IoT/JUnit4/Robolectric
 Firebase/Rx/Dagger2/paho-mqtt
 
 ### Apr 2015 - May 2017 Slogan Inc
-Web DeveloperWeb Developer
+Web Application Developer
 
 #### tech stack
 CakePHP2/RubyonRails4
