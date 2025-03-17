@@ -5,9 +5,10 @@ blog: https://iwsksky.hatenablog.com/
 linkedin: https://www.linkedin.com/in/sky-iwasaki-4a821a159
 
 ## Experience
-
+### Jan 2024 -
+LinQ inc.
 ### Jan 2023 - 
-TBD
+Freelancer
 
 ### Apr 2021 - Dec 2022 PayPay Corp
 Mobile Application Developer
