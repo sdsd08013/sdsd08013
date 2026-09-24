@@ -46,7 +46,7 @@ Kotlin / Kotlin Multiplatform（KMP）を用いたモバイル基盤開発を得
 <article class="entry" markdown="1">
 <header class="entry-head">
 <h3 class="entry-title">Freelance</h3>
-<span class="entry-period">2023年1月 – 現在</span>
+<span class="entry-period">2023年1月 – 2023年12月</span>
 </header>
 <p class="entry-role">Software Engineer</p>
 

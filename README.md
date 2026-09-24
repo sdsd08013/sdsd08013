@@ -1,6 +1,6 @@
 # Sky Iwasaki
 
-Mobile Engineer / Tech Lead
+Mobile Engineer
 
 📄 Resume: https://sdsd08013.github.io/sdsd08013/
 
@@ -41,7 +41,7 @@ Kotlin / Kotlin Multiplatform（KMP）を用いたモバイル基盤開発を得
 ### Freelance
 
 **Software Engineer**
-2023年1月 – 現在
+2023年1月 – 2023年12月
 
 モバイルアプリおよびバックエンド開発に従事。
 

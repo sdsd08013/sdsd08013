@@ -1,10 +1,10 @@
 # --- Site ---------------------------------------------------------------
 title: Sky Iwasaki
-tagline: Mobile Engineer / Tech Lead
+tagline: Mobile Engineer
 # Hero の名前の上に表示する小さなラベル（不要なら削除）
 hero_label: Resume
 description: >-
-  Androidを中心に10年以上モバイルアプリ開発に携わるMobile Engineer / Tech Lead。
+  Androidを中心に10年以上モバイルアプリ開発に携わるMobile Engineer。
   Kotlin / Kotlin Multiplatformによるモバイル基盤開発、技術リード、
   AIエージェントを前提とした開発プロセス設計を得意としています。
 lang: ja
