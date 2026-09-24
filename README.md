@@ -1,6 +1,8 @@
 # Sky Iwasaki
 
-Mobile Engineer
+Mobile Engineer / Tech Lead
+
+📄 Resume: https://sdsd08013.github.io/sdsd08013/
 
 Androidを中心に、モバイルアプリケーションの設計・開発に10年以上携わっています。
 
@@ -149,11 +151,6 @@ AIエージェント向けのWorkflow、レビューエージェント、コン�
 
 ## Education
 
-### 北陸先端科学技術大学院大学
-
-**修士（工学） / コンピュータサイエンス**
-2020年
-
 ### 東京大学
 
 **修士（工学） / 機械工学**
@@ -164,3 +161,47 @@ AIエージェント向けのWorkflow、レビューエージェント、コン�
 **学士（工学） / 電気・電子工学**
 2008年 – 2012年
 
+---
+
+## GitHub Pages（Resume サイト）について
+
+このリポジトリは GitHub Pages + Jekyll で職務経歴サイトとしても公開しています。
+ベースは公式テーマ [architect](https://github.com/pages-themes/architect) で、`_layouts/default.html` と `assets/css/style.scss` で Resume 向けにカスタマイズしています。
+
+```text
+/
+├── _config.yml            # サイト設定（名前・肩書き・専門領域・リンク・baseurl）
+├── index.md               # ページ本文（About / Experience / Expertise / Education / Links）
+├── _layouts/default.html  # Hero（名前・肩書き）とフッターを含むレイアウト
+├── assets/css/style.scss  # Resume 向けスタイル
+└── Gemfile                # ローカル確認用
+```
+
+### 1. GitHub Pages で公開する
+
+1. `master` ブランチに push する
+2. 下記の Settings → Pages を設定する
+3. 数十秒〜数分後に https://sdsd08013.github.io/sdsd08013/ で公開される（Actions タブでビルド状況を確認できる）
+
+### 2. Settings → Pages で必要な設定
+
+- **Source**: `Deploy from a branch`
+- **Branch**: `master` / `/(root)` を選択して Save
+
+補足:
+
+- `_config.yml` の `baseurl` はリポジトリ名に合わせて `/sdsd08013` にしてあります。リポジトリ名を `sdsd08013.github.io` に変える場合は `baseurl: ""` にしてください。
+- 独自ドメインを使う場合は Pages 設定の Custom domain を設定し、`_config.yml` の `url` も合わせて変更します。
+
+### 3. ローカルで Jekyll を確認する
+
+Ruby 3.x と Bundler が必要です（macOS なら `brew install ruby`）。
+
+```sh
+bundle install
+bundle exec jekyll serve --livereload
+```
+
+`http://localhost:4000/sdsd08013/` で確認できます（`baseurl` が付くので末尾のパスに注意）。
+
+`Gemfile` は `github-pages` gem を使っており、GitHub Pages 本番と同じ Jekyll / プラグイン構成で動作します。

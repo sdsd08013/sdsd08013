@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "ja" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="all" type="text/css">
+
+{% seo %}
+
+    {% include head-custom.html %}
+  </head>
+
+  <body>
+    <header class="hero">
+      <div class="inner">
+        <div class="hero-main">
+          {% if site.hero_label %}<p class="hero-label">{{ site.hero_label }}</p>{% endif %}
+          <h1 class="hero-name">{{ site.title }}</h1>
+          <p class="hero-role">{{ site.tagline }}</p>
+          {% if site.expertise %}
+          <ul class="hero-expertise">
+            {% for item in site.expertise %}<li>{{ item }}</li>{% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+        {% if site.links %}
+        <nav class="hero-links" aria-label="Profile links">
+          {% for link in site.links %}
+          <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+          {% endfor %}
+        </nav>
+        {% endif %}
+      </div>
+    </header>
+
+    <main id="content-wrapper">
+      <div class="inner">
+        <section id="main-content">
+          {{ content }}
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="inner">
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
+      </div>
+    </footer>
+  </body>
+</html>

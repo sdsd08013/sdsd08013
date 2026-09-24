@@ -1,1 +1,48 @@
-theme: jekyll-theme-slate
+# --- Site ---------------------------------------------------------------
+title: Sky Iwasaki
+tagline: Mobile Engineer / Tech Lead
+# Hero の名前の上に表示する小さなラベル（不要なら削除）
+hero_label: Resume
+description: >-
+  Androidを中心に10年以上モバイルアプリ開発に携わるMobile Engineer / Tech Lead。
+  Kotlin / Kotlin Multiplatformによるモバイル基盤開発、技術リード、
+  AIエージェントを前提とした開発プロセス設計を得意としています。
+lang: ja
+
+# Hero に表示する専門領域
+expertise:
+  - Android
+  - Kotlin
+  - KMP
+  - Technical Leadership
+  - AI-assisted Software Engineering
+
+# Hero と Links セクションで使うリンク
+links:
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/sky-iwasaki-4a821a159
+  - label: GitHub
+    url: https://github.com/sdsd08013
+
+# --- GitHub Pages -------------------------------------------------------
+# リポジトリ名が <user>.github.io の場合は baseurl を "" にしてください。
+url: https://sdsd08013.github.io
+baseurl: /sdsd08013
+
+theme: jekyll-theme-architect
+show_downloads: false
+
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules

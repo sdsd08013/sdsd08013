@@ -1,0 +1,580 @@
+---
+---
+
+// Architect テーマの normalize だけを流用し、Resume 向けにスタイルを再構成する。
+@import "normalize";
+
+// ---------------------------------------------------------------------------
+// Design tokens
+// ---------------------------------------------------------------------------
+$font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+  "Noto Sans JP", "Yu Gothic UI", "Meiryo", sans-serif;
+$font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas,
+  "Liberation Mono", monospace;
+
+// Architect の青 (#2e7bcf / #9ddcff) を少し落ち着かせたもの
+$accent: #2f6fad;
+$accent-dark: #255b8f;
+$accent-soft: #8fbde3;
+$header-top: #2c6299;
+$header-bottom: #234f7e;
+$header-border: #1d4268;
+$header-sub: #bcd6ef;
+
+$text: #1f2933;
+$text-body: #3a434e;
+$muted: #6b7482;
+$border: #e2e7ec;
+$bg: #fafbfc;
+$tag-bg: #eef4fa;
+$tag-border: #d3e2f0;
+$tag-text: #2c5a88;
+
+$content-width: 760px;
+$bp-mobile: 640px;
+
+// ---------------------------------------------------------------------------
+// Base
+// ---------------------------------------------------------------------------
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: $font-sans;
+  font-size: 15.5px;
+  line-height: 1.8;
+  color: $text-body;
+  background: $bg;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "palt";
+}
+
+a {
+  color: $accent;
+  text-decoration: none;
+
+  &:hover {
+    color: $accent-dark;
+    text-decoration: underline;
+  }
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+strong {
+  font-weight: 700;
+  color: $text;
+}
+
+code {
+  padding: 0.1em 0.35em;
+  font-family: $font-mono;
+  font-size: 0.88em;
+  color: $text;
+  background: $tag-bg;
+  border: 1px solid $tag-border;
+  border-radius: 3px;
+}
+
+.inner {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+// ---------------------------------------------------------------------------
+// Hero
+// ---------------------------------------------------------------------------
+.hero {
+  padding: 44px 0 40px;
+  color: #fff;
+  background: linear-gradient(180deg, $header-top 0%, $header-bottom 100%);
+  border-bottom: 1px solid $header-border;
+
+  .inner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+  }
+}
+
+.hero-label {
+  margin: 0 0 10px;
+  font-family: $font-mono;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: $header-sub;
+  opacity: 0.85;
+}
+
+.hero-name {
+  margin: 0 0 4px;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.hero-role {
+  margin: 0 0 14px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: $header-sub;
+}
+
+.hero-expertise {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 13px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.78);
+
+  li + li::before {
+    content: "·";
+    margin: 0 0.6em;
+    color: rgba(255, 255, 255, 0.45);
+  }
+}
+
+.hero-links {
+  display: flex;
+  flex-shrink: 0;
+  gap: 8px;
+
+  a {
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(255, 255, 255, 0.7);
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Content / Sections
+// ---------------------------------------------------------------------------
+#content-wrapper {
+  padding: 8px 0 24px;
+}
+
+.section {
+  padding: 40px 0;
+  border-bottom: 1px solid $border;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+#main-content h2 {
+  margin: 0 0 24px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  color: $text;
+
+  // Architect の "//" を控えめに残す
+  &::before {
+    content: "//";
+    margin-right: 0.45em;
+    font-family: $font-mono;
+    font-weight: 400;
+    color: $accent-soft;
+  }
+}
+
+#main-content h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: $text;
+}
+
+#main-content ul,
+#main-content ol {
+  margin: 0 0 1em;
+  padding-left: 1.3em;
+}
+
+#main-content li {
+  margin-bottom: 0.3em;
+  padding-left: 0.1em;
+}
+
+#main-content li::marker {
+  color: $accent-soft;
+}
+
+// ---------------------------------------------------------------------------
+// Experience / Education entries
+// ---------------------------------------------------------------------------
+.entry {
+  padding: 26px 0;
+  border-top: 1px solid $border;
+
+  &:first-of-type {
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  &:last-of-type {
+    padding-bottom: 0;
+  }
+
+  > p:last-child,
+  > ul:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.entry-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px 20px;
+}
+
+.entry-title {
+  flex: 1 1 auto;
+}
+
+.entry-period {
+  flex-shrink: 0;
+  font-size: 13.5px;
+  font-variant-numeric: tabular-nums;
+  color: $muted;
+  white-space: nowrap;
+}
+
+.entry-role {
+  margin: 2px 0 12px;
+  font-size: 14.5px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: $accent;
+}
+
+.entry-compact {
+  padding: 16px 0;
+
+  .entry-role {
+    margin-bottom: 0;
+    font-weight: 500;
+    color: $text-body;
+  }
+}
+
+.entry-tech {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px 14px;
+  margin-top: 16px;
+}
+
+.tech-label {
+  flex-shrink: 0;
+  padding-top: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: $muted;
+  white-space: nowrap;
+}
+
+// ---------------------------------------------------------------------------
+// Tags (tech stack)
+// ---------------------------------------------------------------------------
+#main-content .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0;
+    padding: 4px 8px;
+    font-family: $font-mono;
+    font-size: 11.5px;
+    line-height: 1.3;
+    color: $tag-text;
+    background: $tag-bg;
+    border: 1px solid $tag-border;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Expertise
+// ---------------------------------------------------------------------------
+.skill {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 12px 28px;
+  padding: 22px 0;
+  border-top: 1px solid $border;
+
+  &:first-of-type {
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  &:last-of-type {
+    padding-bottom: 0;
+  }
+}
+
+.skill-title {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+}
+
+.skill-body {
+  .tags {
+    margin-bottom: 12px;
+  }
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Links
+// ---------------------------------------------------------------------------
+#main-content .link-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    margin: 0 0 8px;
+    padding: 0;
+  }
+}
+
+.link-label {
+  flex-shrink: 0;
+  min-width: 88px;
+  font-size: 13px;
+  font-weight: 600;
+  color: $muted;
+}
+
+// ---------------------------------------------------------------------------
+// Footer
+// ---------------------------------------------------------------------------
+.site-footer {
+  padding: 20px 0 40px;
+  font-size: 12.5px;
+  color: $muted;
+  border-top: 1px solid $border;
+
+  p {
+    margin: 0;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Responsive
+// ---------------------------------------------------------------------------
+@media only screen and (max-width: $bp-mobile) {
+  body {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .inner {
+    padding: 0 18px;
+  }
+
+  .hero {
+    padding: 32px 0 28px;
+
+    .inner {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 18px;
+    }
+  }
+
+  .hero-name {
+    font-size: 28px;
+  }
+
+  .hero-role {
+    font-size: 16px;
+  }
+
+  .hero-expertise {
+    font-size: 12.5px;
+  }
+
+  .section {
+    padding: 32px 0;
+  }
+
+  #main-content h2 {
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+
+  #main-content h3 {
+    font-size: 17px;
+  }
+
+  .entry {
+    padding: 22px 0;
+  }
+
+  .entry-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .entry-period {
+    font-size: 13px;
+  }
+
+  .entry-role {
+    margin-bottom: 10px;
+  }
+
+  .entry-tech {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .tech-label {
+    padding-top: 0;
+  }
+
+  .skill {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 20px 0;
+  }
+
+  #main-content .link-list li {
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 12px;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Print
+// ---------------------------------------------------------------------------
+@media print {
+  body {
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #222;
+    background: #fff;
+  }
+
+  .inner {
+    max-width: none;
+    padding: 0;
+  }
+
+  .hero {
+    padding: 0 0 12pt;
+    color: #000;
+    background: none;
+    border-bottom: 2px solid #000;
+
+    .inner {
+      align-items: flex-start;
+    }
+  }
+
+  .hero-name {
+    font-size: 22pt;
+    color: #000;
+  }
+
+  .hero-role {
+    color: #333;
+  }
+
+  .hero-expertise {
+    color: #444;
+
+    li + li::before {
+      color: #999;
+    }
+  }
+
+  .hero-links a {
+    padding: 0;
+    color: #000;
+    border: 0;
+
+    &::after {
+      content: ": " attr(href);
+      font-size: 9pt;
+      color: #555;
+    }
+  }
+
+  .hero-links {
+    flex-direction: column;
+    gap: 2pt;
+  }
+
+  .section {
+    padding: 16pt 0;
+  }
+
+  .entry,
+  .skill {
+    break-inside: avoid;
+  }
+
+  #main-content .tags li {
+    color: #333;
+    background: none;
+    border-color: #bbb;
+  }
+
+  .site-footer {
+    display: none;
+  }
+}
