@@ -18,7 +18,7 @@ Kotlin / Kotlin Multiplatform（KMP）を用いたモバイル基盤開発を得
 
 ### LinQ Inc.
 
-**Mobile Engineer**
+**Lead Android Engineer**
 2024年1月 – 現在
 
 位置情報共有サービスのモバイルアプリ開発に従事。Androidチーム最大約10名の開発リードを担当。
