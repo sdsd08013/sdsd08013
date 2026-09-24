@@ -7,7 +7,7 @@ title: Sky Iwasaki
 
 ## About
 
-Androidを中心に、モバイルアプリケーションの設計・開発に**10年以上**携わっています。
+Androidを中心に、モバイルアプリケーションの設計・開発に10年以上携わっています。
 
 Kotlin / Kotlin Multiplatform（KMP）を用いたモバイル基盤開発を得意とし、大規模サービスからスタートアップまで、アーキテクチャ設計、技術選定、開発、レビュー、チームリードを経験してきました。
 
@@ -26,14 +26,14 @@ Kotlin / Kotlin Multiplatform（KMP）を用いたモバイル基盤開発を得
 </header>
 <p class="entry-role">Mobile Engineer / Tech Lead</p>
 
-位置情報共有サービスのモバイルアプリ開発に従事し、**最大約10名のAndroidチームの開発リード**を担当。
+位置情報共有サービスのモバイルアプリ開発に従事し、最大約10名のAndroidチームの開発リードを担当。
 
 - Androidアプリのアーキテクチャ設計、技術選定、コードレビュー
 - Androidエンジニアの採用面接
-- Google MapsのAdvanced Marker相当となる、**任意のViewを描画できるマーカー描画機構をフルスクラッチで実装**
-- **Android / iOS共通の位置情報計測基盤をKotlin Multiplatformで設計・開発**
+- Google MapsのAdvanced Marker相当となる、任意のViewを描画できるマーカー描画機構をフルスクラッチで実装
+- Android / iOS共通の位置情報計測基盤をKotlin Multiplatformで設計・開発
 - 各OSで収集した位置情報データをBigQueryへ連携し、位置情報共有精度の集計・可視化まで一貫して構築
-- **Claude Codeをチーム開発へ導入**し、最終的にほぼすべての実装コードをAIエージェント経由で生成する開発フローへ移行
+- Claude Codeをチーム開発へ導入し、最終的にほぼすべての実装コードをAIエージェント経由で生成する開発フローへ移行
 - CLAUDE.md、開発Workflow、10種類以上のレビューエージェントを整備し、チーム運用へ展開
 - AIエージェントが扱いやすいことを前提に、アーキテクチャや採用技術を整備
 
@@ -72,7 +72,7 @@ Kotlin / Kotlin Multiplatform（KMP）を用いたモバイル基盤開発を得
 
 - 後払い機能の開発
 - キャリア決済機能の開発
-- **Kotlin MultiplatformによるAndroid / iOS共通SDKの開発**
+- Kotlin MultiplatformによるAndroid / iOS共通SDKの開発
 - Feature Flag、多言語化処理など両OS共通ロジックの実装
 - 多国籍チームに約2年間所属し、1on1を除くミーティング、設計議論、Slack、コードレビュー、ドキュメント作成を基本的に英語で実施
 
@@ -92,7 +92,7 @@ Kotlin / Kotlin Multiplatform（KMP）を用いたモバイル基盤開発を得
 フリマアプリのモバイル開発を担当。
 
 - Androidアプリの設計・機能開発
-- **クラッシュフリーレートを約90%から99%へ改善**
+- クラッシュフリーレートを約90%から99%へ改善
 - React Native / Vue Nativeを利用したクロスプラットフォーム開発
 
 <div class="entry-tech">
@@ -156,7 +156,7 @@ Androidアプリの設計・実装から、Android / iOS間で共有するモバ
 <div class="skill-body" markdown="1">
 <ul class="tags"><li>Architecture</li><li>Technology Selection</li><li>Code Review</li><li>Hiring</li></ul>
 
-アーキテクチャ設計、技術選定、コードレビュー、採用を含め、**最大約10名規模のAndroidチーム**をリードしてきました。
+アーキテクチャ設計、技術選定、コードレビュー、採用を含め、最大約10名規模のAndroidチームをリードしてきました。
 
 仕様やドキュメントだけでは明示されていないプロダクト上の意図を汲み取り、品質と開発速度を両立しながらリリースまで進めることを重視しています。
 
@@ -168,7 +168,7 @@ Androidアプリの設計・実装から、Android / iOS間で共有するモバ
 <div class="skill-body" markdown="1">
 <ul class="tags"><li>Claude Code</li><li>Agent Workflow</li><li>Review Agents</li><li>Context Design</li></ul>
 
-Claude CodeなどのAIエージェントを個人利用に留めず、**チームの標準的な開発プロセスへ組み込む**ことに取り組んでいます。
+Claude CodeなどのAIエージェントを個人利用に留めず、チームの標準的な開発プロセスへ組み込むことに取り組んでいます。
 
 AIエージェント向けのWorkflow、レビューエージェント、コンテキスト設計に加え、AIが安全かつ効率的にコードを変更できることを考慮したアーキテクチャ設計にも取り組んでいます。
 
