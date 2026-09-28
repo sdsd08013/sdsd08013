@@ -33,7 +33,7 @@ Kotlin / Kotlin Multiplatform（KMP）を用いたモバイル基盤開発を得
 - Google MapsのAdvanced Marker相当となる、任意のViewを描画できるマーカー描画機構をフルスクラッチで実装
 - Android / iOS共通の位置情報計測基盤をKotlin Multiplatformで設計・開発
 - 各OSで収集した位置情報データをBigQueryへ連携し、位置情報共有精度の集計・可視化まで一貫して構築
-- Claude Codeをチーム開発へ導入し、最終的にほぼすべての実装コードをAIエージェント経由で生成する開発フローへ移行
+- Claude Codeをチーム開発へ導入し、AIエージェント経由で実装コードを生成する開発フローへ移行
 - CLAUDE.md、開発Workflow、10種類以上のレビューエージェントを整備し、チーム運用へ展開
 - AIエージェントが扱いやすいことを前提に、アーキテクチャや採用技術を整備
 
